@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+}
+
+body {
+    background-image: url('https://assets-global.website-files.com/61a49acbddbc08862290e206/62d509e43ee38704c5d33d22_Chopper.png');
+    background-size: 200px;
+}
+
+.top{
+    z-index: 1;
+    background-image: url('https://www.pngkey.com/png/full/128-1281748_eyyyyy-bby-one-piece-gif-png.png');
+    background-size: 200px;
+}
+
+.main{
+    padding: 100px 0px 20px 0px;
+    z-index: 2;
+}
+
+.invis{
+    visibility: visible;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    .main{
+        padding: 100px 0px 20px 0px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .invis{
+        visibility:hidden;
+    }
+}
+
+
+#logo {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+}
+
+#title{
+    color: yellow;
+    text-shadow: 3px 3px black;
+}
+
+.perso{
+    height: 200px;
+    width: 200px;
+    filter: drop-shadow(10px 10px #56afe6);
+    border-radius: 10px;
+    transition: transform .2s;
+    margin:10px;
+}
+
+.perso:hover{
+    transform: scale(1.2);
+}
+
+.gap {
+   margin: 10px;
+}
+
+.padd{
+    padding: 10px;
+}
+
+.padd2{
+    padding: 5px 10px 5px 10px;
+}
+
+.grey {
+    background-color: lightgrey;
+}
