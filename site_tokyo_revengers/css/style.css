@@ -1,0 +1,41 @@
+html, body {
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+.gold {
+    background-color: rgb(206, 185, 63);
+}
+
+.golden{
+    color: gold;
+}
+
+.black {
+ background-color: black;
+}
+
+.red{
+    background-color: #890C00;
+}
+
+.red2{
+    color: red;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo2 {
+    width:80%;
+}
+
+.shadow1 {
+    box-shadow: 15px 15px 5px #890C00;
+}
