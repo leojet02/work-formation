@@ -1,0 +1,140 @@
+@font-face{
+    font-family: tomorrow;
+    src: url("../Tomorrow-Regular.ttf");
+}
+
+body,
+html {
+    margin: 0;
+    font-family: tomorrow;
+    background-image: url("../images/retro-sci-fi-background-free-video.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-color: #043471;
+}
+
+body,
+html {
+    margin: 0;
+    font-family: tomorrow;
+    background-image: url("../images/retro-sci-fi-background-free-video.jpg");
+    background-size: cover;
+    background-color: #043471;
+}
+
+.blue {
+    color: #043471;
+}
+
+.dark-blue {
+    color: #043471;
+}
+
+.light-blue {
+    color: #36E1EC;
+}
+
+@keyframes ufo-anim {
+    0% {top:15%;}
+    50% {top:25%;}
+    100% {top:15%;}
+  }
+
+  
+.ufo {
+    position: fixed;
+    animation-name: ufo-anim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    right: 5%;
+    width: 5%;
+}
+
+.photo {
+    background: #043471;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #36E1EC;
+    border-radius: 15px 15px 0px 0px;
+    width: 200px;
+}
+
+@media screen and (max-width: 767px) {
+    .photo{
+        width: 150px;
+    }
+}
+
+
+
+
+.box1 {
+    background: #043471;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #36E1EC;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.box2 {
+    background: #043471;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #36E1EC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.competence-head{
+    background: #043C7F;
+border-width: 1px 1px 0px 1px;
+border-style: solid;
+border-color: #36E1EC;
+border-radius: 20px 20px 0px 0px;
+}
+
+.competence{
+    background: #043471;
+border: 1px solid #36E1EC;
+border-radius: 20px;
+}
+
+.bg-ligne {
+    background: #043C7F;
+}
+
+.profil-head{
+    background: #043C7F;
+border-width: 1px 1px 0px 1px;
+border-style: solid;
+border-color: #36E1EC;
+border-radius: 20px 20px 0px 0px;
+}
+
+.profil{
+    background: #043471;
+border: 1px solid #36E1EC;
+border-radius: 20px;
+}
+
+.content{
+    max-height: 200px;
+}
+
+.clamp{
+    font-size: clamp(20px, 4vw, 35px);;
+}
+
+.image{
+    width: 40px !important;
+    color: black;
+}
+
+a:hover{
+    color: #36E1EC;
+}
+
+#page-structure{
+    height: 100vh;
+  }
+  

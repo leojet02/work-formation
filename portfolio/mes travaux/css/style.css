@@ -1,0 +1,136 @@
+body,
+html {
+    margin: 0;
+    background-color: lightgrey;
+    overflow-x: hidden;
+    background-image: url('../images/vintage-lines.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 234px;
+    height: 176px;
+}
+
+.bouton-color {
+    background: #FF1E00;
+    border-radius: 15px;
+}
+
+.explication {
+    border: 1px solid #959595;
+    border-radius: 15px;
+    transform: rotate(-6deg);
+    background-color: #E8E5D2;
+}
+
+.orange {
+    color: #D98D1B;
+}
+
+.html {
+    border: 1px solid #959595;
+    border-radius: 20px;
+}
+
+.css {
+    background: #DE5243;
+    border-radius: 20px;
+}
+
+.javascript {
+    background: #774838;
+    border-radius: 20px;
+}
+
+.btn-bleu {
+    background: #68C7C3;
+    border-radius: 15px;
+}
+
+.btn-orange {
+    background: #FBBE63;
+    border-radius: 15px;
+}
+
+.card {
+    width: 400px !important;
+}
+
+.clamp{
+    font-size: clamp(10px, 4vw, 15px);
+}
+
+.clamp2{
+    font-size: clamp(15px, 3vw, 30px);
+}
+
+@media (max-width:575px) {
+    .card {
+        width: 200px !important;
+        height: 500px !important;
+    }
+
+}
+
+.overflow{
+    overflow-x: hidden;
+}
+
+
+ul{
+    list-style: none !important;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+@keyframes skill-anim {
+    0% {margin-top: 100px;}
+    50% {margin-top: 200px;}
+    100% {margin-top: 100px;}
+  }
+
+@media screen and (min-width: 992px){
+    .skill{
+        margin-top:100px;
+        animation-name: skill-anim;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    .anim2{
+        animation-delay: -1s;
+    }
+    .anim3{
+        animation-delay: -2s;
+    }
+    .anim4{
+        animation-delay: -3s;
+    }
+    .anim5{
+        animation-delay: -4s;
+    }
+    
+    .anim6{
+        animation-delay: -5s;
+    }
+}
+
+.skill{
+    width: 50px;
+    height: 50px;
+}
+
+@font-face {
+    font-family: "anotherhand";
+    src: url('../JustAnotherHand-Regular.ttf');
+}
+
+.anotherhand{
+    font-family: "anotherhand";
+    font-size: 30px;
+}

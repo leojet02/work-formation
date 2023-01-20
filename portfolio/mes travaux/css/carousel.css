@@ -1,0 +1,96 @@
+.roundabout-holder {
+    padding: 0;
+    margin: 0 auto;
+    height: 400px;
+    width: 50%;
+}
+
+.roundabout-moveable-item {
+    height: 400px;
+    width: 320px;
+    cursor: pointer;
+    border:1px solid black;
+    display:block;
+}
+
+.roundabout-moveable-item img {
+    height: 100%;
+    width: 100%;
+}
+
+.roundabout-in-focus {
+    cursor: auto;
+}
+
+
+
+
+#carousel li {
+height: 580px;
+width: 408px;
+box-shadow: 0 0 10px #000;
+text-align: center;
+cursor: pointer;
+overflow: hidden;
+background-color: #E8E5D2;
+opacity: 1!important;
+}
+
+
+#carousel li.roundabout-in-focus:hover span {
+display: block;
+z-index: 1;
+}
+
+#carousel li img {
+opacity: 0.65;
+}
+
+#carousel li.roundabout-in-focus{
+cursor: default;
+}
+
+#carousel li.roundabout-in-focus img {
+opacity: 1!important;
+}
+#carousel li.roundabout-in-focus:hover img {
+opacity: 1!important;
+}
+
+
+#carousel li span {
+display: none;
+position: absolute;
+width: 260px;
+border-radius: 5px;
+margin: 270px 88px;
+overflow: hidden;
+box-shadow: 0 0 8px #000;
+}
+
+#carousel a.view-project-button {
+display: block;
+color: #FFF;
+font: 34px/1.6em "Helvetica Neue", Arial, sans-serif;
+padding: 6px 12px;
+text-decoration: none;
+background: #9ABE42;
+}
+#carousel a.view-project-button:hover {
+background: #7E9D32;
+}
+
+#carousel li span a.preview {
+background: #BD3B3C;
+border-radius: 5px 0 0 5px;
+}
+#carousel li span a:hover.preview {
+background: #CE4A4B;
+}
+#carousel li span a.details {
+background: #A28E5C;
+border-radius: 0 5px 5px 0;
+}
+#carousel li span a:hover.details {
+background: #B8A169;
+}
