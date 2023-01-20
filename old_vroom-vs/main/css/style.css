@@ -1,0 +1,233 @@
+body {
+    background-image: url("../old_vroom_pic/stickers-vintage-car.jpg");
+    background-color: #dddddd;
+}
+
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+
+@font-face {
+    font-family: Sansita;
+    src: url("../sansita/Sansita-Regular.ttf");
+}
+
+header {
+    font-family: Sansita !important;
+}
+
+.centered {
+    position: absolute;
+    font-family: Sansita;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.jumbotron {
+    position: relative;
+    text-align: center;
+}
+
+.img {
+    width: 80%;
+}
+
+.marque1 {
+    position: absolute;
+    width: 15%;
+    transform: translate(-50%, 190%);
+    left: 50%;
+}
+
+.marque2 {
+    position: absolute;
+    width: 15%;
+    transform: translate(-50%, 180%);
+    left: 50%;
+}
+
+.marque3 {
+    position: absolute;
+    width: 10%;
+    transform: translate(-50%, 210%);
+    left: 50%;
+}
+
+.marque4 {
+    position: absolute;
+    width: 14%;
+    transform: translate(-50%, 140%);
+    left: 50%;
+}
+
+@media (max-width: 768px) {
+    .img {
+        width: 100%;
+    }
+
+    .avant {
+        position: absolute;
+        right: 20%;
+        transform: translate(25%, -120%);
+        border: solid 3px #373737;
+        background: rgb(198,198,198,0.5);
+        padding: 5px;
+    }
+
+    .apres {
+        position: absolute;
+        transform: translate(25%, -120%);
+        border: solid 3px #C6C6C6;
+        background: rgb(198,198,198,0.5);
+        padding: 5px;
+    }
+
+    .marque1 {
+        position: relative;
+        transform: translate(-50%, 0%);
+        width: 100px;
+    }
+
+    .marque2 {
+        position: relative;
+        transform: translate(-50%, 0%);
+        width: 100px;
+    }
+
+    .marque3 {
+        position: relative;
+        transform: translate(-50%, 0%);
+        width: 100px;
+    }
+
+    .marque4 {
+        position: relative;
+        transform: translate(-50%, 0%);
+        width: 100px;
+    }
+
+}
+
+@media (min-width: 1500px) {
+
+    .marque1 {
+        transform: translate(-50%, 190%);
+        width: 220px;
+    }
+
+    .marque2 {
+        transform: translate(-50%, 170%);
+        width: 225px;
+    }
+
+    .marque3 {
+        transform: translate(-50%, 210%);
+        width: 150px;
+    }
+
+    .marque4 {
+        transform: translate(-50%, 140%);
+        width: 200px;
+    }
+}
+
+
+
+.service {
+    width: 150px;
+    height: 150px;
+}
+
+
+.split {
+    height: 100%;
+    background: linear-gradient(90deg, #373737 50%, #C6C6C6 50%);
+}
+
+.line {
+    height: 1px;
+    background: linear-gradient(90deg, #C6C6C6 50%, #373737 50%);
+    margin: 30px;
+}
+
+.noir {
+    background-color: #373737;
+}
+
+.blanc {
+    background-color: #C6C6C6;
+}
+
+.text-blanc {
+    color: #C6C6C6;
+}
+
+.text-noir {
+    color: #373737;
+}
+
+.vert {
+    color: #8CCB9A;
+    text-shadow: 4px 4px 4px #1B6539;
+}
+
+.contour-noir {
+    text-shadow: 1px 1px 0 #373737, 1px -1px 0 #373737, -1px 1px 0 #373737, -1px -1px 0 #373737, 1px 0px 0 #373737, 0px 1px 0 #373737, -1px 0px 0 #373737, 0px -1px 0 #373737;
+}
+
+.contour-blanc {
+    text-shadow: 1px 1px 0 #C6C6C6, 1px -1px 0 #C6C6C6, -1px 1px 0 #C6C6C6, -1px -1px 0 #C6C6C6, 1px 0px 0 #C6C6C6, 0px 1px 0 #C6C6C6, -1px 0px 0 #C6C6C6, 0px -1px 0 #C6C6C6;
+}
+
+.border-noir {
+    border: solid 5px #373737;
+}
+
+.border-blanc {
+    border: solid 5px #C6C6C6;
+}
+
+
+
+.combi {
+    height: 90%;
+}
+
+.panhart {
+    height: 90%;
+}
+
+.simca {
+    height: 90%;
+}
+
+.oldsmobile {
+    height: 90%;
+}
+
+.clamp {
+    font-size: clamp(15px, 3vw, 40px);
+}
+
+.clamp2 {
+    font-size: clamp(25px, 5vw, 60px);
+}
+
+.smol {
+    font-size: 10px;
+    ;
+}
+
+.gris {
+    background-color: #9B9B9B;
+}

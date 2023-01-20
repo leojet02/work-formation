@@ -1,0 +1,47 @@
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    width: 150px;
+    height: 70px;
+}
+
+
+@font-face {
+    font-family: Sansita;
+    src: url("../sansita/Sansita-Regular.ttf");
+}
+
+header {
+    font-family: Sansita !important;
+}
+
+.noir {
+    background-color: #373737;
+}
+
+.blanc {
+    background-color: #C6C6C6;
+}
+
+.text-blanc {
+    color: #C6C6C6;
+}
+
+.text-noir {
+    color: #373737;
+}
+
+.bg-gris{
+    background-color: #B7B7B7;
+}
+
+.smol{
+    font-size: 10px;;
+}
+
+.gris {
+    background-color: #9B9B9B;
+}
